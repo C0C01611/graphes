@@ -1,0 +1,34 @@
+graph {
+    // Attributs globaux des nœuds : image à côté du label
+    node [image="icon_router.png" shape=none fontsize=20 fontcolor="red" width=1 height=1 fixedsize=true];
+    
+    // Attributs globaux des arcs
+    edge [fontsize=20 fontcolor="blue" color="red"];
+    
+    // Nœuds avec positions fixes et label à côté de l'image
+    A [pos="10,5.5!" label="A"];
+    B [pos="7,8!" label="B"];
+    C [pos="7,4!" label="C"];
+    D [pos="4,4!" label="D"];
+    E [pos="4.5,1!" label="E"];
+    F [pos="1,2.5!" label="F"];
+    G [pos="1.5,6!" label="G"];
+    H [pos="4,8!" label="H"];
+
+    // Relations entre les nœuds
+    A -- B [label="1"];
+    A -- C [label="4"];
+    B -- C [label="2"];
+    B -- D [label="9"];
+    B -- G [label="4"];
+    B -- H [label="2"];
+    C -- D [label="1"];
+    C -- E [label="3"];
+    D -- E [label="1"];
+    D -- F [label="3"];
+    D -- G [label="1"];
+    E -- F [label="1"];
+    F -- G [label="6"];
+    G -- H [label="14"];
+}
+
