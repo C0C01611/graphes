@@ -4,7 +4,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Installation
     - name: upload du resultat
       uses: actions/upload-artifact@v4
       with:
