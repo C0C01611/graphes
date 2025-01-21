@@ -8,7 +8,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: (g1)
-        path: ~/graphes/g1.svg
+        path: g1.svg
     - name: Check out repository code
       uses: actions/checkout@v3
     - name: Lancement graphviz
