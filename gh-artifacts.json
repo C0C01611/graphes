@@ -1,0 +1,43 @@
+{
+  "total_count": 2,
+  "artifacts": [
+    {
+      "id": 2467890562,
+      "node_id": "MDg6QXJ0aWZhY3QyNDY3ODkwNTYy",
+      "name": "images",
+      "size_in_bytes": 5984,
+      "url": "https://api.github.com/repos/C0C01611/graphes/actions/artifacts/2467890562",
+      "archive_download_url": "https://api.github.com/repos/C0C01611/graphes/actions/artifacts/2467890562/zip",
+      "expired": false,
+      "created_at": "2025-01-22T12:59:22Z",
+      "updated_at": "2025-01-22T12:59:22Z",
+      "expires_at": "2025-04-22T12:59:03Z",
+      "workflow_run": {
+        "id": 12908728194,
+        "repository_id": 919963241,
+        "head_repository_id": 919963241,
+        "head_branch": "main",
+        "head_sha": "9c6cd50515cf0d1933901c41d2c0ed11d044cf89"
+      }
+    },
+    {
+      "id": 2461990029,
+      "node_id": "MDg6QXJ0aWZhY3QyNDYxOTkwMDI5",
+      "name": "g1",
+      "size_in_bytes": 1071,
+      "url": "https://api.github.com/repos/C0C01611/graphes/actions/artifacts/2461990029",
+      "archive_download_url": "https://api.github.com/repos/C0C01611/graphes/actions/artifacts/2461990029/zip",
+      "expired": false,
+      "created_at": "2025-01-21T14:37:54Z",
+      "updated_at": "2025-01-21T14:37:54Z",
+      "expires_at": "2025-04-21T14:37:33Z",
+      "workflow_run": {
+        "id": 12889274416,
+        "repository_id": 919963241,
+        "head_repository_id": 919963241,
+        "head_branch": "main",
+        "head_sha": "8e26186d5b35701273a8ae929c1d65313d8d1d39"
+      }
+    }
+  ]
+}
